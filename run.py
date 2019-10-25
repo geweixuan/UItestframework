@@ -1,7 +1,7 @@
 #coding=utf-8
 
 import unittest
-import HTMLTestRunner
+import HtmlTestRunner
 import time
 from config import globalparam
 from public.common import sendmail
@@ -12,15 +12,18 @@ def run():
 
     now = time.strftime('%Y-%m-%d_%H_%M_%S')
     reportname = globalparam.report_path + '\\' + 'TestResult' + now + '.html'
-    with open(reportname,'wb') as f:
-        runner = HTMLTestRunner.HTMLTestRunner(
+    with open(reportname,'w') as f:
+        runner = HtmlTestRunner.HTMLTestRunner(
             stream=f,
-            title='测试报告',
-            description='Test the import testcase'
+            report_title='测试报告',
+            descriptions='Test the import testcase'
         )
         runner.run(suite)
     time.sleep(3)
-    # 发送邮件
+
+    #sendMail() #邮件暂时不发送，后续根据配置决定
+# 发送邮件
+def sendMail():
     mail = sendmail.SendMail()
     mail.send()
 
