@@ -15,7 +15,7 @@ def run():
     with open(reportname,'w') as f:
         runner = HtmlTestRunner.HTMLTestRunner(
             stream=f,
-            report_title='测试报告',
+            report_title='Case Test Report',
             descriptions='Test the import testcase'
         )
         runner.run(suite)

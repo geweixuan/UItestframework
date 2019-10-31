@@ -15,7 +15,7 @@ img_path = os.path.join(prj_path, 'report', 'image')
 # 测试报告路径
 report_path = os.path.join(prj_path, 'report', 'testreport')
 # 默认浏览器
-browser = 'firefox'
+browser = 'chrome'
 
 # 测试数据路径
 data_path = os.path.join(prj_path, 'data', 'testdata')

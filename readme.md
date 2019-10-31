@@ -7,3 +7,8 @@ http://www.mamicode.com/info-detail-2074058.html
 如：C:\Program Files (x86)\Mozilla Firefox，然后目录路径添加到环境变量path下；
 再把geckodriver复制到python安装目录，
 如：C:\Users\Wuhl\AppData\Local\Programs\Python\Python35
+
+版本对应
+目录中的为chrome版本78.0.3904.70
+selenium 3.141.0
+python 3.7
