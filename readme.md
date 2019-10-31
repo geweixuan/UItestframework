@@ -8,7 +8,7 @@ http://www.mamicode.com/info-detail-2074058.html
 再把geckodriver复制到python安装目录，
 如：C:\Users\Wuhl\AppData\Local\Programs\Python\Python35
 
-目录中的chromedriver_win32.zip版本对应
-chrome: 78.0.3904.70
-selenium: 3.141.0
-python: 3.7
+目录中的chromedriver_win32.zip版本对应 </br>
+chrome: 78.0.3904.70</br>
+selenium: 3.141.0</br>
+python: 3.7</br>
